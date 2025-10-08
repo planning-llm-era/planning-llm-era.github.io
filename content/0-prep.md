@@ -1,72 +1,69 @@
 ---
-title: Workshop Prep
-nav: Prep
-topics: GitHub; Optional Software
+title: Tutorial
+nav: Speakers
 ---
 
-To create your own materials using `workshop-template-b`, please set up a free [GitHub account](https://github.com/join) if you do not have one already.
 
-Basic familiarity with the GitHub web interface will be helpful.
-For a quick introduction check out GitHub's [Hello World guide](https://guides.github.com/activities/hello-world/), or the extensive [GitHub Learning Lab](https://lab.github.com/).
+### Speakers
 
-This template works great using only GitHub's web interface for editing--you don't have to install anything!
-However, for more advanced uses you will want Git, Ruby, and Jekyll installed on your computer to do local development.
-
-{% capture text %}
-1. Have a [GitHub](https://github.com) account.
-2. *Very Optional:* have [Git](https://git-scm.com/), [Jekyll](https://jekyllrb.com/), and a nice [text editor](https://code.visualstudio.com/) installed.
+{% capture mk %}
+Michael Katz is a Principal Research Scientist at IBM T.J. Watson Research Center. His research interests and expertise are both in theory of domain independent planning and in
+practice of building efficient tools for solving planning problems. Much of his research lays
+in the intersection of planning and reinforcement learning and planning and language models.
+He is a AAAI Senior Member. He was a program chair of ICAPS 2021 and currently serves
+as an ICAPS executive council board member and a Competition Liaison (second term).
+He received numerous awards for his research, including Influential Paper Award (test-of-
+time) in 2023 for his work on heuristic search for classical planning and Best Dissertation
+Award in 2011. His domain-independent planning solvers have won International Planning
+Competitions (IPC) in 2018 and in 2014. He was a co-organizer of seven editions of the
+Heuristics and Search for Domain-independent Planning (HSDIP) workshops, as well as of
+five editions of the Bridging the Gap Between AI Planning and Reinforcement Learning
+(PRL) workshop, which he co-created in 2020. He is the creator and a workshop chair
+of the LM4Plan workshop series on Planning in the Era of LLMs (LM4Plan@AAAI,
+LM4Plan@ICAPS 2025). He was a panelist at workshops/bridge program at AAAI/ICAPS.
+He has given overview tutorials on AI Planning at AAAI/IJCAI, as well as a tutorial at
+ICAPS on Finding multiple plans for classical planning problems. He frequently serves as
+an AC/SPC for AAAI/IJCAI/ICAPS.
 {% endcapture %}
-{% include card.html text=text header="Setup Overview" %}
+{% include card.html text=mk header="Michael Katz" title="IBM T. J. Watson Research Center, NY, USA" img="https://plan-fm.github.io/2025/images/michael.png" %}
 
-> *Tip:* for easier editing of your project in your browser, you can click `.` on any GitHub repository to [open the web editor](https://docs.github.com/en/codespaces/the-githubdev-web-based-editor) (which is a version of [Visual Studio Code](https://code.visualstudio.com/) editor)!
->
-> *Tip:* you could also use this template on GitLab or other hosting service. GitHub is handy for easily creating and sharing projects, however, it is not a dependency!
 
--------------
+{% capture hk %}
+Harsha Kokel is a Research Scientist at IBM Research. Her work centers on automating
+sequential decision-making, with recent research focusing on planning for and with large
+language models. She earned her Ph.D. from The University of Texas at Dallas where her
+dissertation was recognized with the 2024 David Daniel Thesis Award. Her research has
+appeared in venues such as AAAI, NeurIPS, IJCAI, ICAPS, and ACS.
+Harsha is serving as an Area Chair for NeurIPS 2025 and has been an active reviewer for
+numerous journals, conferences, and workshops, including AAAI, IJCAI, NeurIPS, SDM,
+and DMKD. From 2020 to 2023, she was an Assistant Electronic Publishing Editor for JAIR.
+She has also co-organized the Planning and Reinforcement Learning (PRL) Workshops at
+AAAI 2025, ICAPS 2023 and 2024, and IJCAI 2023. She recently organized PLAN-FM
+Bridge Program at AAAI to foster collaboration between the NLP, Planning, and Robotics
+communities. At this bridge she gave a tutorial on Benchmarks for Planning in Natural
+Language.
+{% endcapture %}
+{% include card.html text=hk header="Harsha Kokel" title="IBM Research, CA, USA" img="https://harshakokel.com/images/me.jpg" %}
 
-## Local Jekyll Setup [very optional]
 
-If you want to develop and preview your website project on your local computer (or deploy it some where other than GitHub Pages), you will need to install Git version control and the static site generator [Jekyll](https://jekyllrb.com/).
-
-### Install Git
-
-[Git](https://git-scm.com/) is a [free](https://www.gnu.org/philosophy/free-sw.en.html), [distributed](https://en.wikipedia.org/wiki/Distributed_version_control) version control system. [GitHub](https://github.com/) is a Git repository hosting service, a place to store and sync your work in the cloud.
-Your GitHub project will be under Git version control, so you need the software on your machine. 
-
-- **Windows:** Install [Git for Windows](https://git-scm.com/downloads){:target="_blank" rel="noopener"} using the default options, *except* when setup asks you to choose the default editor used by Git, select "Use the Nano editor by default". This will give you Git, Git Bash, and Git GUI. Git Bash is a terminal that lets you use UNIX style commands and utilities on Windows, and will be used as your default terminal when working with Jekyll.
-- **Mac:** Mac systems will require the "Xcode Command Line Tools" installed, so open a terminal (to find your terminal search for "terminal" in your Spotlight), type in the command `xcode-select --install`, and follow the prompts. After the install finishes, try typing `git --version`. If you want a newer version of Git, download the official [Mac git installer](https://git-scm.com/downloads){:target="_blank" rel="noopener"}.
-- **Linux:** Install from your distribution's software center or package manager (for Ubuntu `sudo apt install git`).
-
-If you are interested in using a visual GUI application integrated with GitHub, Windows and Mac users should also install [GitHub Desktop](https://desktop.github.com/) using the default options.
-You can install GitHub Desktop in addition to other versions of Git.
-There are other [GUI apps available](https://git-scm.com/downloads/guis) for managing and visualizing Git repositories, including Linux options.
-
-### Install Ruby
-
-[Ruby](https://www.ruby-lang.org/en/){:target="_blank" rel="noopener"} is a open source programming language popular with web applications.
-**_You do not need to know anything about Ruby_**, but you do need it to run Jekyll on your system!
-
-Jekyll requires a Ruby version 2.5.0 or greater.
-Below are quick start steps, but you may want to refer to Jekyll's official [installation guides](https://jekyllrb.com/docs/installation/) for tips.
-
-- **Windows:** Use [RubyInstaller for Windows](https://rubyinstaller.org/){:target="_blank" rel="noopener"}.
-    - First, [download](https://rubyinstaller.org/downloads/) the suggested stable version "WITH DEVKIT" (as of this writing, Ruby+Devkit 3.1.x (x64)) and double click to install. Use the install defaults, but make sure "Add Ruby executables to your PATH" is checked. On the final step, ensure the box to start the MSYS2 DevKit is checked.
-    - Second, the installer will open a terminal window with options to install MSYS2 DevKit components. Choose option 3, "MSYS2 and MINGW development toolchain", or simply press ENTER to install all the necessary dependencies. The installer will proceed through a bunch of steps outputting a bunch of text in the terminal window. *Eventually*, this will conclude and you should see a message with the word `success` in it. If the window doesn't close, press `Enter` again or manually close it. (The installer can be restarted by typing `ridk install` into a command prompt).
-- **Mac:** OS X has a version of Ruby installed by default. Check the version with `ruby -v`. If it is > 2.5.0 you can use the system Ruby. However, a newer version can be installed using [Homebrew](https://brew.sh/) or a manager such as [rbenv](https://github.com/rbenv/rbenv). Check the official Jekyll [Mac install docs](https://jekyllrb.com/docs/installation/#macOS) for tips.
-- **Linux:** Although many distros come with a system Ruby installed or a repository version, we suggest using a version manager such as [rbenv](https://github.com/rbenv/rbenv) or [RVM](http://rvm.io/). This will ensure you have an up to date Ruby version and a clean environment separated from your system Ruby. You will also need the build tools Make and GCC, on Ubuntu get them with `sudo apt install build-essential`. 
-
-### Install Jekyll
-
-Jekyll is a Gem, a software package installed via Ruby's management system called RubyGems (similar to Python's Pip). 
-Open a terminal and type:
-`gem install jekyll bundler`
-
-This will take a minute as Gem installs all the dependencies and builds extensions. 
-
-### Install Text Editor
-
-When working with code you should have a good text editor.
-Windows notepad does not handle UTF-8 encoding or UNIX line endings that are standard for cross platform applications. 
-For basic editing, Windows [Notepad++](https://notepad-plus-plus.org/), Mac TextEdit, or Linux Gedit are sufficient.
-However, a more complete code editor will be helpful for managing Jekyll projects.
-The current most popular open source cross platform option is [Visual Studio Code](https://code.visualstudio.com/).
+{% capture cm %}
+Christian Muise is an Assistant Professor in the School of Computing at Queen’s Univer-
+sity. Prior to joining Queen’s, he received his PhD from the University of Toronto, held
+postdoctoral positions with the University of Melbourne and MIT, and worked in industry
+as a research scientist with the MIT-IBM Watson AI Lab. Dr Muise is the author of over
+100 scholarly works in the area of Artificial Intelligence (AI). His main area of focus is
+on the understanding and modelling of sequential decision-making problems, with a focus
+on settings where uncertainty plays a role. In 2022, Dr Muise was recognized with the
+ICAPS Influential Paper Award (test-of-time) for his work on non-deterministic planning,
+which remains the state-of-the-art approach for solving planning problems with uncertainty.
+He has also been recognized with several teaching awards, including the Howard Staveley
+Teaching Award and the Queen’s University Principal’s Educational Technology Award.
+Dr Muise is a member of the Ingenuity Labs at Queen’s University, an active Scotiabank
+Scholar with the Scotiabank Centre for Customer Analytics, academic co-director of the
+Master’s in Digital Product Management, and a Faculty Affiliate with the Vector Institute for
+Artificial Intelligence. After serving as Program Chair for the International Conference of
+Automated Planning and Scheduling (ICAPS), he was elected to serve on the council for the
+ICAPS organization. Dr Muise also serves as an Editorial Board Member of the Artificial
+Intelligence Journal (AIJ).
+{% endcapture %}
+{% include card.html text=hk header="Christian Muise" title="Queen's University, Ontario, Canada" img="https://harshakokel.com/images/me.jpg" %}
