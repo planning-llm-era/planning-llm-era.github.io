@@ -15,17 +15,20 @@ as an ICAPS executive council board member and a Competition Liaison (second ter
 He received numerous awards for his research, including Influential Paper Award (test-of-
 time) in 2023 for his work on heuristic search for classical planning and Best Dissertation
 Award in 2011. His domain-independent planning solvers have won International Planning
-Competitions (IPC) in 2018 and in 2014. He was a co-organizer of seven editions of the
+Competitions (IPC) in 2018 and in 2014. 
+
+He was a co-organizer of seven editions of the
 Heuristics and Search for Domain-independent Planning (HSDIP) workshops, as well as of
 five editions of the Bridging the Gap Between AI Planning and Reinforcement Learning
-(PRL) workshop, which he co-created in 2020. He is the creator and a workshop chair
+(PRL) workshop, which he co-created in 2020. 
+He is the creator and a workshop chair
 of the LM4Plan workshop series on Planning in the Era of LLMs (LM4Plan@AAAI,
 LM4Plan@ICAPS 2025). He was a panelist at workshops/bridge program at AAAI/ICAPS.
 He has given overview tutorials on AI Planning at AAAI/IJCAI, as well as a tutorial at
 ICAPS on Finding multiple plans for classical planning problems. He frequently serves as
 an AC/SPC for AAAI/IJCAI/ICAPS.
 {% endcapture %}
-{% include card.html text=mk header="Michael Katz" title="IBM T. J. Watson Research Center, NY, USA" img="michael.png" %}
+{% include speaker.html text=mk header="Michael Katz" title="IBM T. J. Watson Research Center, NY, USA" img="michael.png" %}
 
 
 {% capture hk %}
@@ -34,6 +37,8 @@ sequential decision-making, with recent research focusing on planning for and wi
 language models. She earned her Ph.D. from The University of Texas at Dallas where her
 dissertation was recognized with the 2024 David Daniel Thesis Award. Her research has
 appeared in venues such as AAAI, NeurIPS, IJCAI, ICAPS, and ACS.
+
+
 Harsha is serving as an Area Chair for NeurIPS 2025 and has been an active reviewer for
 numerous journals, conferences, and workshops, including AAAI, IJCAI, NeurIPS, SDM,
 and DMKD. From 2020 to 2023, she was an Assistant Electronic Publishing Editor for JAIR.
@@ -43,7 +48,7 @@ Bridge Program at AAAI to foster collaboration between the NLP, Planning, and Ro
 communities. At this bridge she gave a tutorial on Benchmarks for Planning in Natural
 Language.
 {% endcapture %}
-{% include card.html text=hk header="Harsha Kokel" title="IBM Research, CA, USA" img="harsha.png" %}
+{% include speaker.html text=hk header="Harsha Kokel" title="IBM Research, CA, USA" img="harsha.png" %}
 
 
 {% capture cm %}
@@ -58,6 +63,7 @@ ICAPS Influential Paper Award (test-of-time) for his work on non-deterministic p
 which remains the state-of-the-art approach for solving planning problems with uncertainty.
 He has also been recognized with several teaching awards, including the Howard Staveley
 Teaching Award and the Queen’s University Principal’s Educational Technology Award.
+
 Dr Muise is a member of the Ingenuity Labs at Queen’s University, an active Scotiabank
 Scholar with the Scotiabank Centre for Customer Analytics, academic co-director of the
 Master’s in Digital Product Management, and a Faculty Affiliate with the Vector Institute for
@@ -66,4 +72,4 @@ Automated Planning and Scheduling (ICAPS), he was elected to serve on the counci
 ICAPS organization. Dr Muise also serves as an Editorial Board Member of the Artificial
 Intelligence Journal (AIJ).
 {% endcapture %}
-{% include card.html text=hk header="Christian Muise" title="Queen's University, Ontario, Canada" img="christian.jpeg" %}
+{% include speaker.html text=cm header="Christian Muise" title="Queen's University, Ontario, Canada" img="christian.jpeg" %}

@@ -3,7 +3,7 @@ title: Home
 layout: page
 ---
 
-{% include jumbotron.html heading="Tutorial: Planning in the Era of Language Models" text="December 2nd, San Diego" button-text="NeurIPS 2025" button-color="outline-primary" button-link="https://neurips.cc/virtual/2025/tutorial/109596" border=true %}
+{% include jumbotron.html heading="Planning in the Era of Language Models" text="December 2nd, San Diego, CA, USA" button-text="Tutorial @ NeurIPS 2025" button-color="outline-primary" button-link="https://neurips.cc/virtual/2025/tutorial/109596" border=true %}
 
 
 
@@ -33,6 +33,28 @@ the wider AI community, with the aim of incorporating the insights, tools, and
 data from the automated planning community into the design and evaluation of
 LLM-based planners. 
 
+### Program 
+
+{% include alert.html text="Coming Soon" align="center" color="success" %}
+
+### Panelist
+
+
+{% capture nb %}
+{% endcapture %}
+{% include speaker.html header="Noam Brown" title="Open AI" img="noam.jpg" %}
+
+
+
+{% capture sl %}
+{% endcapture %}
+{% include speaker.html header="Sergey Levine" title="UC Berkeley" img="sergey.jpeg" %}
+
+
+{% capture sk %}
+{% endcapture %}
+{% include speaker.html header="Subbarao Kambhampati" title="Arizona State University" img="rao.png" %}
+
 ------
 
-{% include template/credits.html %}
+<!-- {% include template/credits.html %} -->
