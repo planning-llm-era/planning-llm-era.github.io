@@ -3,9 +3,9 @@ title: Home
 layout: page
 ---
 
-# Bootstrap Workshop Template!
+# Tutorial: Planning in the Era of Language Models
 
-{% include figure.html img="uidaho-workshop.jpg" alt="intro image here" caption="Library workshop" width="75%" %}
+<!-- {% include figure.html img="uidaho-workshop.jpg" alt="intro image here" caption="Library workshop" width="75%" %} 
 
 A minimal Jekyll theme with Bootstrap for creating workshop websites.
 
@@ -18,6 +18,9 @@ Fun!
 *See also:* [workshop-template](https://evanwill.github.io/workshop-template/), original minimal version.
 
 {% include toc.html %}
+-->
+
+TBA 
 
 ------
 
