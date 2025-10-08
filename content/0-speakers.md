@@ -25,7 +25,7 @@ He has given overview tutorials on AI Planning at AAAI/IJCAI, as well as a tutor
 ICAPS on Finding multiple plans for classical planning problems. He frequently serves as
 an AC/SPC for AAAI/IJCAI/ICAPS.
 {% endcapture %}
-{% include card.html text=mk header="Michael Katz" title="IBM T. J. Watson Research Center, NY, USA" img="https://plan-fm.github.io/2025/images/michael.png" %}
+{% include card.html text=mk header="Michael Katz" title="IBM T. J. Watson Research Center, NY, USA" img="michael.png" %}
 
 
 {% capture hk %}
@@ -43,7 +43,7 @@ Bridge Program at AAAI to foster collaboration between the NLP, Planning, and Ro
 communities. At this bridge she gave a tutorial on Benchmarks for Planning in Natural
 Language.
 {% endcapture %}
-{% include card.html text=hk header="Harsha Kokel" title="IBM Research, CA, USA" img="https://harshakokel.com/images/me.jpg" %}
+{% include card.html text=hk header="Harsha Kokel" title="IBM Research, CA, USA" img="harsha.png" %}
 
 
 {% capture cm %}
@@ -66,4 +66,4 @@ Automated Planning and Scheduling (ICAPS), he was elected to serve on the counci
 ICAPS organization. Dr Muise also serves as an Editorial Board Member of the Artificial
 Intelligence Journal (AIJ).
 {% endcapture %}
-{% include card.html text=hk header="Christian Muise" title="Queen's University, Ontario, Canada" img="https://harshakokel.com/images/me.jpg" %}
+{% include card.html text=hk header="Christian Muise" title="Queen's University, Ontario, Canada" img="christian.jpeg" %}
