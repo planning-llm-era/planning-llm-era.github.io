@@ -22,37 +22,97 @@ Fun!
 {% include toc.html %}
 -->
 
-Over the past sixty years, the field of planning has made significant contributions to
-both the theory and practice of building planning software that can solve previously
-unaddressed planning problems. This was done through established practices of
-rigorous design and evaluation of planning systems. The experience and expertise
-of the planning community are not just important from a historical perspective;
-the lessons learned could play a crucial role in accelerating the development of
-LLM-based planners. The purpose of this tutorial is to share the knowledge with
-the wider AI community, with the aim of incorporating the insights, tools, and
-data from the automated planning community into the design and evaluation of
-LLM-based planners. 
+For over six decades, the field of automated planning has been at the heart of AI, empowering intelligent systems to reason, act, and achieve goals in complex, dynamic environments. From robotics and logistics to space exploration, planning research has fueled autonomous decision-making in real-world applications.
+
+Today, as large language models redefine what’s possible in AI, the principles and methodologies of planning are more vital than ever. The planning community brings decades of experience in designing, benchmarking, and interpreting intelligent behavior; expertise that can accelerate the development of powerful, trustworthy, and general-purpose LLM-based agents.
+
+Participants will gain a clear understanding of what planning truly entails, what has been learned (and sometimes forgotten) in the shift toward LLM-based approaches, and how foundational insights from the planning community can inform the creation of stronger, more reliable, and more scalable LLM-powered planners.
+
+
+<br>
 
 ### Program 
 
-{% include alert.html text="Coming Soon" align="center" color="success" %}
+<br>
+
+
+<ol class="list-group list-group">
+  <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">What is Planning?</div>
+     <p class="mb-1">
+     <nav class="nav nav-pills flex-column">
+      <span class="ms-3 my-1" >What kind of planning problem do I have aka Planning Formalisms?</span>
+      <span class="ms-3 my-1" >What kind of solutions am I looking for aka Computational Problems?</span>
+      <span class="ms-3 my-1" >How can I describe my planning problem aka Planning Languages?</span>
+    </nav>
+     </p>
+    </div>
+    <span class="badge bg-primary rounded-pill">30 mins</span>
+  </li>
+  <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Solving Planning Problems</div>
+         <p class="mb-1">
+     <nav class="nav nav-pills flex-column">
+      <span class="ms-3 my-1" >Pre-LLM era</span>
+      <span class="ms-3 my-1" >Early LLM era</span>
+      <span class="ms-3 my-1" >Modern LLM era</span>
+    </nav>
+     </p>
+    </div>
+    <span class="badge bg-primary rounded-pill">30 mins</span>
+  </li>
+  <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold"> Tools to learn and work with planning models</div>
+     <nav class="nav nav-pills flex-column">
+      <span class="ms-3 my-1" >Natural language to PDDL (L2P)</span>
+      <span class="ms-3 my-1" >Time series data to PDDL (MACQ)</span>
+      <span class="ms-3 my-1" >Planning tools you can use to build, solve, and analyze models</span>
+    </nav>
+    </div>
+    <span class="badge bg-primary rounded-pill">30 mins</span>
+  </li>
+    <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold"> Evaluating core reasoning for reliable planning tasks</div>
+     <nav class="nav nav-pills flex-column">
+      <span class="ms-3 my-1" >Designing an experimental evaluation of a planner </span>
+      <span class="ms-3 my-1" >Evaluating other planning-related capabilities (e.g. applicable actions, plan validation, goal recognition)</span>
+      <span class="ms-3 my-1" >Range of datasets available for evaluationss</span>
+    </nav>
+    </div>
+    <span class="badge bg-primary rounded-pill">30 mins</span>
+  </li>
+      <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold"> Panel: LMs for Sound and Efficient Planning: Limitations and
+Opportunities</div>
+      Moderated by Christian Muise
+    </div>
+    <span class="badge bg-primary rounded-pill">30 mins</span>
+  </li>
+</ol>
+<br>
+<br>
+
+
+ 
 
 ### Panelist
 
+<br>
+<br>
 
-{% capture nb %}
-{% endcapture %}
+
 {% include speaker.html header="Noam Brown" title="Open AI" img="noam.jpg" %}
 
 
 
-{% capture sl %}
-{% endcapture %}
 {% include speaker.html header="Sergey Levine" title="UC Berkeley" img="sergey.jpeg" %}
 
 
-{% capture sk %}
-{% endcapture %}
 {% include speaker.html header="Subbarao Kambhampati" title="Arizona State University" img="rao.png" %}
 
 ------
