@@ -105,15 +105,19 @@ Opportunities</div>
 <br>
 <br>
 
-
-{% include speaker.html header="Noam Brown" title="Open AI" img="noam.jpg" %}
+{% capture nb %}
+Noam Brown is a research scientist at OpenAI investigating reasoning and multi-agent AI. He co-created Libratus and Pluribus, the first AIs to defeat top humans in two-player no-limit poker and multiplayer no-limit poker, respectively, and Cicero, the first AI to achieve human-level performance in the natural language strategy game Diplomacy. He has received the Marvin Minsky Medal for Outstanding Achievements in AI, was named one of MIT Tech Review's 35 Innovators Under 35, and his work on Pluribus was named by Science as one of the top 10 scientific breakthroughs of 2019. Noam received his PhD from Carnegie Mellon University.
+{% endcapture %}
+{% include speaker.html text=nb header="Noam Brown" title="Open AI" img="noam.jpg" %}
 
 
 
 {% include speaker.html header="Sergey Levine" title="UC Berkeley" img="sergey.jpeg" %}
 
-
-{% include speaker.html header="Subbarao Kambhampati" title="Arizona State University" img="rao.png" %}
+{% capture sk %}
+Subbarao Kambhampati is a professor of computer science at Arizona State University. Kambhampati studies fundamental problems in planning and decision making, motivated in particular by the challenges of human-aware AI systems. He is a fellow of Association for the Advancement of Artificial Intelligence, American Association for the Advancement of Science,  and Association for Computing machinery, and a recent recipient of the AAAI Patrick H. Winston Outstanding Educator award. He served as the president of the Association for the Advancement of Artificial Intelligence, a trustee of the International Joint Conference on Artificial Intelligence,  the chair of AAAS Section T (Information, Communication and Computation), and a founding board member of Partnership on AI. Kambhampati’s research as well as his views on the progress and societal impacts of AI have been featured in multiple national and international media outlets. He can be followed on Twitter @rao2z.
+{% endcapture %}
+{% include speaker.html text=sk header="Subbarao Kambhampati" title="Arizona State University" img="rao.png" %}
 
 ------
 
