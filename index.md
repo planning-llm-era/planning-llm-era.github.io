@@ -72,7 +72,7 @@ Participants will gain a clear understanding of what planning truly entails, wha
       <span class="ms-3 my-1" >Planning tools you can use to build, solve, and analyze models</span>
     </nav>
     </div>
-    <span class="badge bg-primary rounded-pill">30 mins</span>
+    <span class="badge bg-primary rounded-pill">45 mins</span>
   </li>
     <li class="list-group-item d-flex justify-content-between align-items-start">
     <div class="ms-2 me-auto">
@@ -83,16 +83,16 @@ Participants will gain a clear understanding of what planning truly entails, wha
       <span class="ms-3 my-1" >Range of datasets available for evaluationss</span>
     </nav>
     </div>
-    <span class="badge bg-primary rounded-pill">30 mins</span>
+    <span class="badge bg-primary rounded-pill">45 mins</span>
   </li>
-      <li class="list-group-item d-flex justify-content-between align-items-start">
+      <!-- <li class="list-group-item d-flex justify-content-between align-items-start">
     <div class="ms-2 me-auto">
       <div class="fw-bold"> Panel: LMs for Sound and Efficient Planning: Limitations and
 Opportunities</div>
       Moderated by Christian Muise
     </div>
     <span class="badge bg-primary rounded-pill">30 mins</span>
-  </li>
+  </li> -->
 </ol>
 <br>
 <br>
