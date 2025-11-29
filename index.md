@@ -3,7 +3,7 @@ title: Home
 layout: page
 ---
 
-{% include jumbotron.html heading="Planning in the Era of Language Models" text="9:30--12:00,<br>December 2nd,<br>San Diego, CA, USA" button-text="Tutorial @ NeurIPS 2025" button-color="outline-primary" button-link="https://neurips.cc/virtual/2025/tutorial/109596" border=true %}
+{% include jumbotron.html heading="Planning in the Era of Language Models" text="9:30--12:00,<br>December 2nd,<br>Upper Level Ballroom 20AB,<br>San Diego, CA, USA" button-text="Tutorial @ NeurIPS 2025" button-color="outline-primary" button-link="https://neurips.cc/virtual/2025/tutorial/109596" border=true %}
 
 
 
