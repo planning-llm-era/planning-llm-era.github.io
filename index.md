@@ -78,9 +78,9 @@ Participants will gain a clear understanding of what planning truly entails, wha
     <div class="ms-2 me-auto">
       <div class="fw-bold"> Evaluating core reasoning for reliable planning tasks</div>
      <nav class="nav nav-pills flex-column">
-      <span class="ms-3 my-1" >Designing an experimental evaluation of a planner </span>
-      <span class="ms-3 my-1" >Evaluating other planning-related capabilities (e.g. applicable actions, plan validation, goal recognition)</span>
-      <span class="ms-3 my-1" >Range of datasets available for evaluationss</span>
+      <span class="ms-3 my-1" >Core reasoning tasks for planning </span>
+      <span class="ms-3 my-1" >Datasets for evaluations</span>
+      <span class="ms-3 my-1" >Planning Benchmark Desiderata</span>
     </nav>
     </div>
     <span class="badge bg-primary rounded-pill">45 mins</span>
