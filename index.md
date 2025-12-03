@@ -37,6 +37,12 @@ Participants will gain a clear understanding of what planning truly entails, wha
 
 
 <ol class="list-group list-group">
+<li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Introduction [<a href="./assets/slides/NeurIPS25_tutorial_0_MK.pdf" target="blank">Slides</a>]</div>
+    </div>
+    <span class="badge bg-primary rounded-pill">5 mins</span>
+  </li>
   <li class="list-group-item d-flex justify-content-between align-items-start">
     <div class="ms-2 me-auto">
       <div class="fw-bold">What is Planning? [<a href="./assets/slides/NeurIPS25_tutorial_1_MK.pdf" target="blank">Slides</a>]</div>
@@ -48,7 +54,7 @@ Participants will gain a clear understanding of what planning truly entails, wha
     </nav>
      </p>
     </div>
-    <span class="badge bg-primary rounded-pill">30 mins</span>
+    <span class="badge bg-primary rounded-pill">25 mins</span>
   </li>
   <li class="list-group-item d-flex justify-content-between align-items-start">
     <div class="ms-2 me-auto">
