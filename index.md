@@ -39,7 +39,7 @@ Participants will gain a clear understanding of what planning truly entails, wha
 <ol class="list-group list-group">
   <li class="list-group-item d-flex justify-content-between align-items-start">
     <div class="ms-2 me-auto">
-      <div class="fw-bold">What is Planning?</div>
+      <div class="fw-bold">What is Planning? [<a href="./assets/slides/NeurIPS25_tutorial_1_MK.pdf" target="blank">Slides</a>]</div>
      <p class="mb-1">
      <nav class="nav nav-pills flex-column">
       <span class="ms-3 my-1" >What kind of planning problem do I have aka Planning Formalisms?</span>
@@ -52,7 +52,7 @@ Participants will gain a clear understanding of what planning truly entails, wha
   </li>
   <li class="list-group-item d-flex justify-content-between align-items-start">
     <div class="ms-2 me-auto">
-      <div class="fw-bold">Solving Planning Problems</div>
+      <div class="fw-bold">Solving Planning Problems [<a target="blank" href="./assets/slides/NeurIPS25_tutorial_2_MK.pdf">Slides</a>]</div>
          <p class="mb-1">
      <nav class="nav nav-pills flex-column">
       <span class="ms-3 my-1" >Pre-LLM era</span>
@@ -76,7 +76,7 @@ Participants will gain a clear understanding of what planning truly entails, wha
   </li>
     <li class="list-group-item d-flex justify-content-between align-items-start">
     <div class="ms-2 me-auto">
-      <div class="fw-bold"> Evaluating core reasoning for reliable planning tasks</div>
+      <div class="fw-bold"> Evaluating core reasoning for reliable planning tasks [<a target="blank" href="./assets/slides/NeurIPS25_tutorial_4_HK.pdf">Slides</a>] </div>
      <nav class="nav nav-pills flex-column">
       <span class="ms-3 my-1" >Core reasoning tasks for planning </span>
       <span class="ms-3 my-1" >Datasets for evaluations</span>
@@ -84,6 +84,7 @@ Participants will gain a clear understanding of what planning truly entails, wha
     </nav>
     </div>
     <span class="badge bg-primary rounded-pill">45 mins</span>
+   
   </li>
       <!-- <li class="list-group-item d-flex justify-content-between align-items-start">
     <div class="ms-2 me-auto">
@@ -116,6 +117,5 @@ Subbarao Kambhampati is a professor of computer science at Arizona State Univers
 {% endcapture %}
 {% include speaker.html text=sk header="Subbarao Kambhampati" title="Arizona State University" img="rao.png" %} -->
 
-------
 
 <!-- {% include template/credits.html %} -->
