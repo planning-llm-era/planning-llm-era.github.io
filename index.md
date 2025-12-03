@@ -65,7 +65,7 @@ Participants will gain a clear understanding of what planning truly entails, wha
   </li>
   <li class="list-group-item d-flex justify-content-between align-items-start">
     <div class="ms-2 me-auto">
-      <div class="fw-bold"> Tools to learn and work with planning models</div>
+      <div class="fw-bold"> Tools to learn and work with planning models [<a target="blank" href="./assets/slides/NeurIPS25_tutorial_3_CM.pdf">Slides</a>]</div>
      <nav class="nav nav-pills flex-column">
       <span class="ms-3 my-1" >Natural language to PDDL (L2P)</span>
       <span class="ms-3 my-1" >Time series data to PDDL (MACQ)</span>
