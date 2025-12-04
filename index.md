@@ -5,6 +5,25 @@ layout: page
 
 {% include jumbotron.html heading="Planning in the Era of Language Models" text="9:30--12:00,<br>December 2nd,<br>Upper Level Ballroom 20AB,<br>San Diego, CA, USA" button-text="Tutorial @ NeurIPS 2025" button-color="outline-primary" button-link="https://neurips.cc/virtual/2025/tutorial/109596" border=true %}
 
+<div class="alert alert-info d-flex align-items-center" role="alert">
+  <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Info:"><use xlink:href="#info-fill"/></svg>
+  <div>
+    Want to learn more? Consider attending the <a href="https://icaps26-dublin-ss.github.io/ICAPS-2026-Summer-School/"> ICAPS 2026 Summer School</a> in Dublin, June 22-25 2026.
+  </div>
+</div>
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="info-fill" fill="currentColor" viewBox="0 0 16 16">
+    <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+  </symbol>
+</svg>
+
+<div class="alert alert-success d-flex align-items-center" role="alert">
+  <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Info:"><use xlink:href="#info-fill"/></svg>
+  <div>
+    Attending AAAI? Checkout the Bridge on Planning and Reasoning in Natural Language with Foundational Models <a href="https://plan-fm.github.io/2026/">PLAN-FM</a> on Jan 21st, 2026.
+  </div>
+</div>
 
 
 <!-- {% include figure.html img="uidaho-workshop.jpg" alt="intro image here" caption="Library workshop" width="75%" %} 
