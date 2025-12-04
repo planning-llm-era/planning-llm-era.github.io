@@ -63,10 +63,13 @@ Below we provide a non-exhaustive list of resources.
 ----
 
 
+<br>
 
-
+<br>
 
 # References
+
+<br>
 
 - ACPBench: Reasoning about Action, Change, and Planning, Harsha Kokel, Michael Katz, Kavitha
 Srinivas, Shirin Sohrabi, In [AAAI 2025](https://ojs.aaai.org/index.php/AAAI/article/view/34857)
