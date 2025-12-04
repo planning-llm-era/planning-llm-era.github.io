@@ -25,7 +25,7 @@ nav: Resources and References
   </div>
 </div>
 
-# Resources 
+<br>
 
 Below we provide a non-exhaustive list of resources. 
 
