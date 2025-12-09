@@ -34,6 +34,7 @@ Below we provide a non-exhaustive list of resources.
 - LLM-driven Planning Model library kit [L2P](https://github.com/AI-Planning/l2p)
 - MACQ Visualizer: A Holistic View of Model Acquisition Techniques, [MACQ](MACQ.planning.domains)
 - A gym env to interact with any PDDL domain, [PDDLGym](https://github.com/tomsilver/pddlgym)
+- PlanUtils: A general library for setting up Linux-based environments for developing, running, and evaluating planners, [PlanUtils](https://github.com/AI-Planning/planutils)
 
 ### Benchmarks 
 
@@ -49,7 +50,10 @@ Below we provide a non-exhaustive list of resources.
 
 - Tutorial on **Action Model Acquisition**, [ICAPS 2023](https://icaps23.icaps-conference.org/program/tutorials/model/), Christian Muise and Tathagata Chakraborti
 - Tutorial on **Planning in Natural Language with Foundational Models (PLAN-FM)**, [AAAI 2025](https://plan-fm.github.io/2025/), Harsha Kokel, Shirin Sohrabi, Soham Dan, and Manling Li
-
+- Tutorial on **AI Planning: Theory and Practice**, [AAAI 2022](https://aiplanning-tutorial.github.io/) Shirin Sohrabi, Michael Katz, Octavian Udrea
+- Tutorial on **Finding multiple plans for classical planning problems**, [ICAPS 2024](https://mp-tutorial.github.io/), Shirin Sohrabi, Michael Katz, Junkyu Lee, David Speck
+- Tutorial on **A Beginner's Introduction to Heuristic Search Planning**, [AAAI 2015](https://ai.dmi.unibas.ch/misc/tutorial_aaai2015/), Malte Helmert, Gabriele Röger
+- Tutorial on **Latest Trends in Abstraction Heuristics for Classical Planning**, [ICAPS 2015](https://ai.dmi.unibas.ch/misc/tutorial_icaps2015abstractions/), Malte Helmert, Jendrik Seipp, Silvan Sievers
 
 ### Community Resources
 
@@ -71,6 +75,9 @@ Below we provide a non-exhaustive list of resources.
 
 <br>
 
+- Make Planning Research Rigorous Again!, Michael Katz, Harsha Kokel, Christian Muise, Shirin
+Sohrabi, Sarath Sreedharan, In [ArXiv 2025.](https://arxiv.org/abs/2505.21674)
+
 - ACPBench: Reasoning about Action, Change, and Planning, Harsha Kokel, Michael Katz, Kavitha
 Srinivas, Shirin Sohrabi, In [AAAI 2025](https://ojs.aaai.org/index.php/AAAI/article/view/34857)
 
@@ -85,9 +92,6 @@ Harsha Kokel, Kavitha Srinivas, Shirin Sohrabi, In [NeurIPS 2024](https://procee
 
 - Automating Thought of Search: A Journey Towards Soundness and Completeness, Daniel Cao,
 Michael Katz, Harsha Kokel, Kavitha Srinivas, Shirin Sohrabi, In [OWA @ NeurIPS 2024](https://arxiv.org/abs/2408.11326)
-
-- Make Planning Research Rigorous Again!, Michael Katz, Harsha Kokel, Christian Muise, Shirin
-Sohrabi, Sarath Sreedharan, In [ArXiv 2025.](https://arxiv.org/abs/2505.21674)
 
 - PlanBench: An Extensible Benchmark for Evaluating Large Language Models on Planning and Reasoning about Change, Karthik Valmeekam, Matthew Marquez, Alberto Olmo, Sarath Sreedharan, Subbarao Kambhampati, In [NeurIPS 2023.](https://proceedings.neurips.cc/paper_files/paper/2023/file/7a92bcdede88c7afd108072faf5485c8-Paper-Datasets_and_Benchmarks.pdf)
 
