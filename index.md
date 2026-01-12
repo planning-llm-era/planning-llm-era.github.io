@@ -52,19 +52,20 @@ Participants will gain a clear understanding of what planning truly entails, wha
 
 ### Program 
 
+All the video recordings are available on [NeurIPS website](https://neurips.cc/virtual/2025/loc/san-diego/tutorial/109596).
 <br>
 
 
 <ol class="list-group list-group">
 <li class="list-group-item d-flex justify-content-between align-items-start">
     <div class="ms-2 me-auto">
-      <div class="fw-bold">Introduction [<a href="./assets/slides/NeurIPS25_tutorial_0_MK.pdf" target="blank">Slides</a>]</div>
+      <div class="fw-bold">Introduction [<a href="./assets/slides/NeurIPS25_tutorial_0_MK.pdf" target="blank">Slides</a>] [<a target="blank" href="https://slideslive.com/embed/presentation/39053054">Recording</a>]</div>
     </div>
     <span class="badge bg-primary rounded-pill">5 mins</span>
   </li>
   <li class="list-group-item d-flex justify-content-between align-items-start">
     <div class="ms-2 me-auto">
-      <div class="fw-bold">What is Planning? [<a href="./assets/slides/NeurIPS25_tutorial_1_MK.pdf" target="blank">Slides</a>]</div>
+      <div class="fw-bold">What is Planning? [<a href="./assets/slides/NeurIPS25_tutorial_1_MK.pdf" target="blank">Slides</a>] [<a target="blank" href="https://slideslive.com/embed/presentation/39053054?slide=2">Recording</a>]</div>
      <p class="mb-1">
      <nav class="nav nav-pills flex-column">
       <span class="ms-3 my-1" >What kind of planning problem do I have aka Planning Formalisms?</span>
@@ -77,7 +78,7 @@ Participants will gain a clear understanding of what planning truly entails, wha
   </li>
   <li class="list-group-item d-flex justify-content-between align-items-start">
     <div class="ms-2 me-auto">
-      <div class="fw-bold">Solving Planning Problems [<a target="blank" href="./assets/slides/NeurIPS25_tutorial_2_MK.pdf">Slides</a>]</div>
+      <div class="fw-bold">Solving Planning Problems [<a target="blank" href="./assets/slides/NeurIPS25_tutorial_2_MK.pdf">Slides</a>] [<a target="blank" href="https://slideslive.com/embed/presentation/39053054?slide=54">Recording</a>]</div>
          <p class="mb-1">
      <nav class="nav nav-pills flex-column">
       <span class="ms-3 my-1" >Pre-LLM era</span>
@@ -90,7 +91,7 @@ Participants will gain a clear understanding of what planning truly entails, wha
   </li>
   <li class="list-group-item d-flex justify-content-between align-items-start">
     <div class="ms-2 me-auto">
-      <div class="fw-bold"> Tools to learn and work with planning models [<a target="blank" href="./assets/slides/NeurIPS25_tutorial_3_CM.pdf">Slides</a>]</div>
+      <div class="fw-bold"> Tools to learn and work with planning models [<a target="blank" href="./assets/slides/NeurIPS25_tutorial_3_CM.pdf">Slides</a>] [<a target="blank" href="https://slideslive.com/embed/presentation/39053056?&embed_parent_url=https%3A%2F%2Fneurips.cc%2Fvirtual%2F2025%2Floc%2Fsan-diego%2F130335&embed_origin=https%3A%2F%2Fneurips.cc&embed_container_id=presentation-embed-39053056">Recording</a>]</div>
      <nav class="nav nav-pills flex-column">
       <span class="ms-3 my-1" >Natural language to PDDL (L2P)</span>
       <span class="ms-3 my-1" >Time series data to PDDL (MACQ)</span>
@@ -101,7 +102,7 @@ Participants will gain a clear understanding of what planning truly entails, wha
   </li>
     <li class="list-group-item d-flex justify-content-between align-items-start">
     <div class="ms-2 me-auto">
-      <div class="fw-bold"> Evaluating core reasoning for reliable planning tasks [<a target="blank" href="./assets/slides/NeurIPS25_tutorial_4_HK.pdf">Slides</a>] </div>
+      <div class="fw-bold"> Evaluating core reasoning for reliable planning tasks [<a target="blank" href="./assets/slides/NeurIPS25_tutorial_4_HK.pdf">Slides</a>] [<a target="blank" href="https://slideslive.com/embed/presentation/39053057?&embed_parent_url=https%3A%2F%2Fneurips.cc%2Fvirtual%2F2025%2Floc%2Fsan-diego%2F130335&embed_origin=https%3A%2F%2Fneurips.cc&embed_container_id=presentation-embed-39053057">Recording</a>]</div>
      <nav class="nav nav-pills flex-column">
       <span class="ms-3 my-1" >Core reasoning tasks for planning </span>
       <span class="ms-3 my-1" >Datasets for evaluations</span>
